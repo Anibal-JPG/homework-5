@@ -123,3 +123,65 @@ text-align: center;
     position: relative;
     top: 0%;
 }
+
+.aplicaciones{
+    width: 1170px;
+    height: 386px;
+    
+}
+
+.aplicaciones_h2{
+    text-align: center;
+}
+
+.aplicaciones_cajas{
+    max-height: 294px;
+    max-width: 370px;
+    background-color: #2196F3;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 44px;
+    margin-right: 1px;
+}
+
+.aplicaciones_h3{
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    width: 369px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    line-height: 70px;
+}
+
+.equipo{
+    width: 1600px;
+    height: 708px;
+    background-color: #F5F4FA;
+    position: relative;
+    right: 250px;
+}
+
+.equipo_h2{
+    text-align: center;
+    font-size: 36px;
+    position: relative;
+    top: 94px;
+}
+
+.equipo_contenedor{
+    height: 428px;
+    width: 1170px;
+    margin: 186px 0px 0px 250px;
+    
+}
+
+.equipo_cajas{
+    height: 428px;
+    width: 270px;
+    display: inline-block;
+    margin-left: 18px;
+    background-color: aqua;
+}
