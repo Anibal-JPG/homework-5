@@ -1,0 +1,125 @@
+.header{
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    
+    
+}
+
+.header_nav{
+    display: flex;
+    
+}
+
+.header-title{
+margin-left: 20px;
+color: #2196F3;
+text-align: center;
+}
+
+.header_ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-left: 250px;
+    line-height: 53px;
+}
+
+.header_link{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+
+.header_link:hover{
+    color: #2196F3;
+}
+
+#li{
+    margin-left: 300px;
+}
+
+
+.header_svg{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+
+.header_svg:hover{
+    color: #2196F3;
+}
+
+.li_svg{
+    position: relative;
+    left: 30px;
+}
+
+.li_svg:hover{
+    fill: #2196F3;
+}
+
+.service{
+    width: 1600px;
+    height: 600px;
+    background-color: #2196F3;
+    background-image: url(./image/img/equipo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: contain;
+}
+
+.service_h2{
+    color: white;
+    width: 600px;
+    font-size: 44px;
+    text-align: center;
+    padding: 200px 452px 0px 452px;
+    
+}
+
+.service_button{
+    margin-left: 650px;
+    width: 200px;
+    height: 50px;
+    margin-top: -100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #2196F3;
+    color: white;
+}
+
+.beneficios{
+    max-width: 1270px;
+    max-height: 251px;
+    margin-left: 165px;
+    margin-top: 89px;
+    background-color: rgb(119, 119, 201);
+}
+
+.beneficios_cajas{
+    max-width: 270px;
+    max-height: 251px;
+    margin-left: 30px;
+    display: inline-block;
+    margin-top: 0%px;
+}
+
+.beneficios_title{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.beneficios_p{
+    font-size: 14px;
+}
+
+.beneficios_svg{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    position: relative;
+    top: 0%;
+}
