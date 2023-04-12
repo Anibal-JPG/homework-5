@@ -1,13 +1,14 @@
 body{
     max-width: 1600px;
+    font-family: sans-serif;
 }
 .header{
     max-width: 1600px;
     max-height: 80px;
     display: flex;
     justify-content: space-around;
-    
-    
+    border-bottom: 1px solid #ECECEC;
+    ;    
 }
 
 .header_nav{
@@ -227,6 +228,7 @@ text-align: center;
     height: 162px;
     margin: auto;
     text-align: center;
+    margin-bottom: 140px;
 }
 
 .clientes_father{
@@ -254,3 +256,109 @@ text-align: center;
 .clientes_svg:hover {
     background: #2196F3;
 }
+
+.footer{
+    height: 252px;
+    width: 1600px;
+    background: #2F303A;
+}
+
+.footer_inf{
+    max-height: 126px;
+    max-width: 231px;
+    color: #FFFFFF;
+    position: relative;
+    top: 53px;
+    left: 215px;
+}
+
+.redes{
+    width: 206px;
+    height: 80px;
+    margin-left: 515px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;    
+}
+
+.redes_p{
+    color: #FFFFFF;
+}
+
+.redes_contend{
+    width: 206px;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+
+.redes_svg{
+    width: 44px;
+    height: 44px;
+    fill: #FFFFFF;
+    margin-left: 6px;
+}
+
+.redes_svg:hover{
+    border-radius: 50%;
+    background-color: #2196F3;
+}
+
+.redes_svg_img{
+    padding: 12px;
+}
+
+
+        /*:::::::PORTAFOLIO:::::::*/
+
+
+.barranav{
+    width: 1600px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px 100px 0px;
+}
+
+.barranav_border{
+    width: 80px;
+    height: 38px;
+    margin: 8px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0px;
+    font-size: 16px;
+}
+.barranav_border:nth-child(2){
+    width: 128px;
+}
+.barranav_border:nth-child(3){
+    width: 145px;
+}
+.barranav_border:nth-child(5){
+    width: 130px;
+}
+
+.barranav_border:hover{
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.contain{
+    height: 1260px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.contain_box{
+    height: 404px;
+    width: 370px;
+    background-color: #2196F3;
+    margin: 0px 30px 30px 0px;
+}
+
+
