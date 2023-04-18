@@ -95,6 +95,36 @@ text-align: center;
     background-color: #2196F3;
     color: white;
 }
+.service_button:hover{
+    cursor: pointer;
+}
+
+.backdrop.is-hidden{
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.modal_styles{
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    left: 491px;
+    top: 221px;
+    height: 581px;
+    width: 528px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.button_styles{
+    border: none;
+    background: none;
+    display: flex;
+}
+.button_styles:hover{
+    cursor: pointer;
+}
 
 .beneficios{
     display: flex;
