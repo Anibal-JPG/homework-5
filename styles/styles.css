@@ -1,15 +1,16 @@
 body{
-    max-width: 1600px;
     font-family: 'Roboto', sans-serif;
 }
 .header{
-    max-width: 1600px;
     max-height: 80px;
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid #ECECEC;
     ;    
 }
+
+
+
 
 .header_nav{
     display: flex;
@@ -66,24 +67,25 @@ text-align: center;
 
 
 .service{
-    width: 1600px;
     height: 600px;
     background-color: #2196F3;
     background-image: url(../image/img/equipo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    background-size: contain;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.service_box{
+    width: 927px;
+    height: 100px;
 }
 
 .service_h2{
     color: white;
     width: 600px;
     font-size: 44px;
-    text-align: center;
-    padding: 200px 452px 0px 452px;
-    
-}
 
 .service_button{
     margin-left: 650px;
@@ -130,9 +132,9 @@ text-align: center;
 .beneficios{
     display: flex;
     max-width: 1270px;
-    max-height: 251px;
-    margin-left: 165px;
-    margin-top: 89px;
+    height: 385px;
+    margin: auto;
+    align-items: center;
 
 }
 
