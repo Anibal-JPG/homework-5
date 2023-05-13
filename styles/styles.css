@@ -76,22 +76,25 @@ text-align: center;
     background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .service_box{
     width: 927px;
-    height: 100px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .service_h2{
     color: white;
-    width: 600px;
     font-size: 44px;
-
+}
 .service_button{
-    margin-left: 650px;
     width: 200px;
     height: 50px;
-    margin-top: -100px;
     border-radius: 5px;
     border: 1px solid black;
     background-color: #2196F3;
@@ -131,11 +134,9 @@ text-align: center;
 
 .beneficios{
     display: flex;
-    max-width: 1270px;
     height: 385px;
-    margin: auto;
     align-items: center;
-
+    justify-content: center;
 }
 
 .beneficios_cajas{
@@ -162,9 +163,8 @@ text-align: center;
 }
 
 .aplicaciones{
-    width: 1170px;
-    height: 386px;
-    margin-left: 215px;
+    display: flex;
+    justify-content: center;
 }
 
 .aplicaciones_h2{
@@ -176,9 +176,7 @@ text-align: center;
     max-width: 370px;
     background-color: #2196F3;
     display: inline-block;
-    margin-left: 15px;
-    margin-top: 44px;
-    margin-right: 1px;
+    margin: 20px;
 }
 
 .aplicaciones_h3{
@@ -194,33 +192,26 @@ text-align: center;
 }
 
 .equipo{
-    width: 1600px;
     height: 708px;
     background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .equipo_h2{
-    text-align: center;
     font-size: 36px;
-    position: relative;
-    top: 94px;
-}
-
-.equipo_contenedor{
-    height: 428px;
-    width: 1170px;
-    margin: 186px 0px 0px 210px;
-    
+    text-align: center;
 }
 
 .equipo_cajas{
     height: 428px;
     width: 270px;
-    display: inline-block;
     margin-left: 18px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    display: inline-block;
 }
 
 .equipo_h3{
@@ -261,10 +252,10 @@ text-align: center;
 
 .clientes{
     width: 1170px;
-    height: 162px;
+    height: 350px;
     margin: auto;
     text-align: center;
-    margin-bottom: 140px;
+    padding: 15px;
 }
 
 .clientes_father{
@@ -306,26 +297,26 @@ text-align: center;
 
 .footer{
     height: 252px;
-    width: 1600px;
     background: #2F303A;
+}
+
+.footer_container{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .footer_inf{
     max-height: 126px;
     max-width: 231px;
     color: #FFFFFF;
-    position: relative;
-    top: 53px;
-    left: 215px;
 }
 
 .redes{
     width: 206px;
     height: 80px;
-    margin-left: 515px;
-    text-align: center;
-    position: relative;
-    bottom: 50px;    
+    text-align: center;   
 }
 
 .redes_p{
