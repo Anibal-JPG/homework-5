@@ -34,9 +34,22 @@ text-align: center;
 .header_link{
     color: black;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 67px;
     transition-property: color;
     transition-duration: 250ms;
+}
+.header_after{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header_after:hover::after{
+    content: "";
+    display: block;
+    width: 78px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #2196F3;
+    position: relative;
+    left: 64px;
 }
 
 .header_link:hover{
@@ -67,7 +80,7 @@ text-align: center;
 
 
 .service{
-    height: 600px;
+    height: 800px;
     background-color: #2196F3;
     background-image: url(../image/img/equipo.jpg);
     background-repeat: no-repeat;
@@ -114,8 +127,6 @@ text-align: center;
     display: flex;
     justify-content: end;
     position: fixed;
-    left: 491px;
-    top: 221px;
     height: 581px;
     width: 528px;
     border-radius: 4px;
@@ -149,7 +160,7 @@ text-align: center;
 
 .beneficios_title{
     font-size: 14px;
-    margin-bottom: 20px;
+    text-align: center;
 }
 
 .beneficios_svg{
@@ -159,7 +170,13 @@ text-align: center;
     position: relative;
     top: 0%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+
+}
+.beneficios_Svg{
+    width: 70px;
+    height: 70px;
 }
 
 .aplicaciones{
@@ -233,7 +250,8 @@ text-align: center;
 }
 
 .equipo_svg{
-    padding: 15px;
+    width: 30px;
+    height: 30px;
     fill: #AFB1B8;
 }
 .equipo_svg:hover{
@@ -241,6 +259,7 @@ text-align: center;
 }
 
 .equipo_borderradius{
+    padding: 10px;
     border-radius: 50%;
     transition-property: background-color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -269,7 +288,7 @@ text-align: center;
 .clientes_box{
     width: 170px;
     height: 81px;
-    border: 1px solid #AFB1B8;
+    border: 2px solid #AFB1B8;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -285,7 +304,8 @@ text-align: center;
 }
 .clientes_svg{
     fill: #afb1b8;
-    padding: 32px;
+    width: 106px;
+    height: 52px;
     transition-property: fill;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
@@ -330,7 +350,10 @@ text-align: center;
     align-items: center;
 }
 
-.redes_svg{
+.redes_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     fill: #FFFFFF;
@@ -341,12 +364,13 @@ text-align: center;
     transition-duration: 250ms;
 }
 
-.redes_svg:hover{
+.redes_box:hover{
     background-color: #2196F3;
 }
 
-.redes_svg_img{
-    padding: 12px;
+.redes_Svg{
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -354,11 +378,10 @@ text-align: center;
 
 
 .barranav{
-    width: 1600px;
-    height: 38px;
+    height: 200px;
     display: flex;
     justify-content: center;
-    margin: 80px 0px 100px 0px;
+    align-items: center;
 }
 
 .barranav_border{
@@ -391,12 +414,11 @@ text-align: center;
 }
 
 .contain{
-    height: 1260px;
+    height: 1450px;
     width: 1200px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    padding-bottom: 100px;
 }
 
 .contain_box{
